@@ -1,0 +1,28 @@
+{
+    "name": "shu/thinkphp-social",
+    "description": "适用于thinkphp5-8的社会化登录扩展",
+    "keywords": ["第三方授权登录","QQ登录","微信登录","新浪登录","百度登录","谷歌登录","Google登录","Facebook登录","Gitee登录","Github登录","Oschina登录","淘宝登录","抖音登录","小米登录","钉钉登录","think-social","thinkphp-social","oauth", "thinkphp","thinkphp5.1","thinkphp6.0","thinkphp8.0"],
+    "license": "Apache-2.0",
+    "type": "think-extend",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "authors": [
+        {
+            "name": "shu",
+            "email": "666@qq.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "shu\\social\\" : "src/"
+        }
+    },
+    "extra": {
+        "think": {
+            "config": {
+                "social": "src/config/social.php"
+            }
+        }
+    }
+}
